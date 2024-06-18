@@ -7,9 +7,8 @@ console.log(welcomeMsg("Jane"));
 console.log(welcomeMsg("Marc"));
 // Welcome Marc!
 
-function welcomeMsg() {
-  console.log("Welcome Jane");
-  console.log("Welcome Marc");
+function welcomeMsg(userName) {
+  return "Welcome " + userName;
 }
 
 // TODO: Implement the addPositive function
